@@ -23,26 +23,27 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/gio/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-    vendor/samsung/gio/proprietary/lib/libbinder.so:system/lib/libbinder.so \
     vendor/samsung/gio/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/gio/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/samsung/gio/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/gio/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/gio/proprietary/lib/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/gio/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/samsung/gio/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/gio/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/samsung/gio/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/gio/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/gio/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/samsung/gio/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/gio/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/gio/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/gio/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/gio/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
     vendor/samsung/gio/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-    vendor/samsung/gio/proprietary/lib/libui.so:system/lib/libui.so
-
+    vendor/samsung/gio/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/samsung/gio/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/samsung/gio/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/gio/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/gio/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/gio/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so 
+## Testing
+#PRODUCT_COPY_FILES += \   
+#   vendor/samsung/gio/proprietary/lib/libbinder.so:system/lib/libbinder.so \
+#   vendor/samsung/gio/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+#   vendor/samsung/gio/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+#   vendor/samsung/gio/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+#   vendor/samsung/gio/proprietary/lib/libui.so:system/lib/libui.so
 
 ## Sensor
 PRODUCT_COPY_FILES += \
