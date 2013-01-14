@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/samsung/gio/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so 
 
-## Testing
+## Old CM9 libraries
 #   vendor/samsung/gio/proprietary/lib/libbinder.so:system/lib/libbinder.so \
 #   vendor/samsung/gio/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 #   vendor/samsung/gio/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
