@@ -54,8 +54,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/etc/hosts:system/etc/hosts
 
-## Superuser
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gio/proprietary/app/Superuser.apk:system/etc/Superuser.apk
-
 include vendor/samsung/msm7x27-common/vendor.mk
