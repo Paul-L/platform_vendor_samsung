@@ -46,16 +46,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/lib/librpc.so:system/lib/librpc.so
 
-## APN
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gio/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml
-
-## Hosts
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gio/proprietary/etc/hosts:system/etc/hosts
-
-## Superuser
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gio/proprietary/app/Superuser.apk:system/app/Superuser.apk
-
 include vendor/samsung/msm7x27-common/vendor.mk
