@@ -1,0 +1,964 @@
+  
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>proprietary_vendor_samsung/msm7x27-common/proprietary/lib at aosp-ics · MoltenMotherBoard/proprietary_vendor_samsung · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="http://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="NCtsT6Q9rJTxK+4sWC9SY4fwDHLRxewhVIOxlgOdkxU=" name="csrf-token" />
+
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-2688dc4e182569fac922094952cf2980765bed52.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-050e49b00db79cfc0e6ef924ceb729af1a16d3b0.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-5d526182eb5719ec57fe668ec5ca700f54fce693.js" type="text/javascript"></script>
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/github-c7d4d8b9be77527b49bcdaaccd2538530b040569.js" type="text/javascript"></script>
+      
+
+        <link rel='permalink' href='/MoltenMotherBoard/proprietary_vendor_samsung/tree/0261a005d467fdf8478c5191ccfb220d34fd4bb7/msm7x27-common/proprietary/lib'>
+    <meta property="og:title" content="proprietary_vendor_samsung"/>
+    <meta property="og:type" content="githubog:gitrepository"/>
+    <meta property="og:url" content="https://github.com/MoltenMotherBoard/proprietary_vendor_samsung"/>
+    <meta property="og:image" content="https://secure.gravatar.com/avatar/683b8ba0a65c89a745c59df33b6bc54f?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <meta property="og:site_name" content="GitHub"/>
+    <meta property="og:description" content="Proprietary blobs for Samsung msm7x27 devices. Contribute to proprietary_vendor_samsung development by creating an account on GitHub."/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:site" content="@GitHub">
+    <meta property="twitter:title" content="MoltenMotherBoard/proprietary_vendor_samsung"/>
+
+    <meta name="description" content="Proprietary blobs for Samsung msm7x27 devices. Contribute to proprietary_vendor_samsung development by creating an account on GitHub." />
+
+      <meta name="robots" content="noindex, nofollow">
+  <link href="https://github.com/MoltenMotherBoard/proprietary_vendor_samsung/commits/aosp-ics.atom" rel="alternate" title="Recent Commits to proprietary_vendor_samsung:aosp-ics" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out   vis-public fork env-production  ">
+    <div id="wrapper">
+
+      
+
+      
+
+      
+
+      
+
+
+        <div class="header header-logged-out">
+          <div class="container clearfix">
+
+            <a class="header-logo-wordmark" href="https://github.com/">
+              <img alt="GitHub" class="github-logo-4x" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x.png?1360648847" />
+              <img alt="GitHub" class="github-logo-4x-hover" height="30" src="https://a248.e.akamai.net/assets.github.com/images/modules/header/logov7@4x-hover.png?1360648847" />
+            </a>
+
+              
+<ul class="top-nav">
+    <li class="explore"><a href="https://github.com/explore">Explore GitHub</a></li>
+  <li class="search"><a href="https://github.com/search">Search</a></li>
+  <li class="features"><a href="https://github.com/features">Features</a></li>
+    <li class="blog"><a href="https://github.com/blog">Blog</a></li>
+</ul>
+
+
+            <div class="header-actions">
+                <a class="button primary" href="https://github.com/signup">Sign up for free</a>
+              <a class="button" href="https://github.com/login?return_to=%2FMoltenMotherBoard%2Fproprietary_vendor_samsung%2Ftree%2Faosp-ics%2Fmsm7x27-common%2Fproprietary%2Flib">Sign in</a>
+            </div>
+
+          </div>
+        </div>
+
+
+      
+
+      
+
+
+            <div class="site hfeed" itemscope itemtype="http://schema.org/WebPage">
+      <div class="hentry">
+        
+        <div class="pagehead repohead instapaper_ignore readability-menu ">
+          <div class="container">
+            <div class="title-actions-bar">
+              
+
+
+<ul class="pagehead-actions">
+
+
+
+    <li>
+      <a href="/login?return_to=%2FMoltenMotherBoard%2Fproprietary_vendor_samsung"
+        class="minibutton js-toggler-target star-button entice tooltipped upwards"
+        title="You must be signed in to use this feature" rel="nofollow">
+        <span class="mini-icon mini-icon-star"></span>Star
+      </a>
+      <a class="social-count js-social-count" href="/MoltenMotherBoard/proprietary_vendor_samsung/stargazers">
+        0
+      </a>
+    </li>
+    <li>
+      <a href="/login?return_to=%2FMoltenMotherBoard%2Fproprietary_vendor_samsung"
+        class="minibutton js-toggler-target fork-button entice tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="mini-icon mini-icon-fork"></span>Fork
+      </a>
+      <a href="/MoltenMotherBoard/proprietary_vendor_samsung/network" class="social-count">
+        19
+      </a>
+    </li>
+</ul>
+
+              <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+                <span class="repo-label"><span>public</span></span>
+                <span class="mega-icon mega-icon-public-repo"></span>
+                <span class="author vcard">
+                  <a href="/MoltenMotherBoard" class="url fn" itemprop="url" rel="author">
+                  <span itemprop="title">MoltenMotherBoard</span>
+                  </a></span> /
+                <strong><a href="/MoltenMotherBoard/proprietary_vendor_samsung" class="js-current-repository">proprietary_vendor_samsung</a></strong>
+                  <span class="fork-flag">
+                    <span class="text">forked from <a href="/Jellaxy/proprietary_vendor_samsung">Jellaxy/proprietary_vendor_samsung</a></span>
+                  </span>
+              </h1>
+            </div>
+
+            
+  <ul class="tabs">
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung" class="selected" highlight="[:repo_source, :repo_downloads, :repo_commits, :repo_tags, :repo_branches]">Code</a></li>
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung/network" highlight="[:repo_network]">Network</a></li>
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung/pulls" highlight="[:repo_pulls]">Pull Requests <span class='counter'>0</span></a></li>
+
+
+
+
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung/graphs" highlight="[:repo_graphs, :repo_contributors]">Graphs</a></li>
+
+
+  </ul>
+  
+<div class="tabnav">
+
+  <span class="tabnav-right">
+    <ul class="tabnav-tabs">
+          <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung/tags" class="tabnav-tab" highlight="repo_tags">Tags <span class="counter blank">0</span></a></li>
+    </ul>
+    
+  </span>
+
+  <div class="tabnav-widget scope">
+
+
+    <div class="select-menu js-menu-container js-select-menu js-branch-menu">
+      <a class="minibutton select-menu-button js-menu-target" data-hotkey="w" data-ref="aosp-ics">
+        <span class="mini-icon mini-icon-branch"></span>
+        <i>branch:</i>
+        <span class="js-select-button">aosp-ics</span>
+      </a>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container js-select-menu-pane">
+
+        <div class="select-menu-modal js-select-menu-pane">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Switch branches/tags</span>
+            <span class="mini-icon mini-icon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-filters">
+            <div class="select-menu-text-filter">
+              <input type="text" id="commitish-filter-field" class="js-select-menu-text-filter js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+            </div> <!-- /.select-menu-text-filter -->
+            <div class="select-menu-tabs">
+              <ul>
+                <li class="select-menu-tab">
+                  <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+                </li>
+                <li class="select-menu-tab">
+                  <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+                </li>
+              </ul>
+            </div><!-- /.select-menu-tabs -->
+          </div><!-- /.select-menu-filters -->
+
+          <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket css-truncate" data-tab-filter="branches" data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+
+              <div class="select-menu-item js-navigation-item js-navigation-target selected">
+                <span class="select-menu-item-icon mini-icon mini-icon-confirm"></span>
+                <a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics/msm7x27-common/proprietary/lib" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="aosp-ics" rel="nofollow" title="aosp-ics">aosp-ics</a>
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-item-icon mini-icon mini-icon-confirm"></span>
+                <a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics_dev/msm7x27-common/proprietary/lib" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="aosp-ics_dev" rel="nofollow" title="aosp-ics_dev">aosp-ics_dev</a>
+              </div> <!-- /.select-menu-item -->
+              <div class="select-menu-item js-navigation-item js-navigation-target ">
+                <span class="select-menu-item-icon mini-icon mini-icon-confirm"></span>
+                <a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/b2g/msm7x27-common/proprietary/lib" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="b2g" rel="nofollow" title="b2g">b2g</a>
+              </div> <!-- /.select-menu-item -->
+
+              <div class="select-menu-no-results js-not-filterable">Nothing to show</div>
+          </div> <!-- /.select-menu-list -->
+
+
+          <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket css-truncate" data-tab-filter="tags" data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-no-results js-not-filterable">Nothing to show</div>
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+  </div> <!-- /.scope -->
+
+  <ul class="tabnav-tabs">
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung" class="selected tabnav-tab" highlight="repo_source">Files</a></li>
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung/commits/aosp-ics" class="tabnav-tab" highlight="repo_commits">Commits</a></li>
+    <li><a href="/MoltenMotherBoard/proprietary_vendor_samsung/branches" class="tabnav-tab" highlight="repo_branches" rel="nofollow">Branches <span class="counter ">3</span></a></li>
+  </ul>
+
+</div>
+
+  
+  
+  
+
+
+            
+          </div>
+        </div><!-- /.repohead -->
+
+        <div id="js-repo-pjax-container" class="container context-loader-container" data-pjax-container>
+          
+
+
+<!-- tree commit key: views10/v8/tree:v21:5d63930de797a8bb2329647ab7de9c19 -->
+
+  <div id="slider">
+      <div class="frame-meta">
+
+          <p class="history-link js-history-link-replace">
+<a href="/MoltenMotherBoard/proprietary_vendor_samsung/commits/aosp-ics/msm7x27-common/proprietary/lib" rel="nofollow">                <span class="mini-icon mini-icon-history tooltipped" title="Browse commits for this directory"></span>
+                History
+</a>          </p>
+
+        <div class="breadcrumb">
+          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/MoltenMotherBoard/proprietary_vendor_samsung" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">proprietary_vendor_samsung</span></a></span></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics/msm7x27-common" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">msm7x27-common</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics/msm7x27-common/proprietary" class="js-slide-to" data-direction="back" itemscope="url"><span itemprop="title">proprietary</span></a></span> / <strong class="final-path">lib</strong> / <form action="/login?return_to=%2FMoltenMotherBoard%2Fproprietary_vendor_samsung%2Ftree%2Faosp-ics%2Fmsm7x27-common%2Fproprietary%2Flib" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Sign in to make or propose changes"><span class="js-new-blob-submit mini-icon mini-icon-new-file"></span></form>
+        </div>
+
+        <a href="/MoltenMotherBoard/proprietary_vendor_samsung/find/aosp-ics"
+           class="js-slide-to" data-hotkey="t" style="display:none">Show File Finder</a>
+
+      </div><!-- ./.frame-meta -->
+
+      
+
+  <div class="frames">
+    <div class="frame" data-permalink-url="/MoltenMotherBoard/proprietary_vendor_samsung/tree/0261a005d467fdf8478c5191ccfb220d34fd4bb7/msm7x27-common/proprietary/lib" data-title="proprietary_vendor_samsung/msm7x27-common/proprietary/lib at aosp-ics · MoltenMotherBoard/proprietary_vendor_samsung · GitHub" data-type="tree">
+
+      <div class="bubble tree-browser-wrapper">
+
+      <table class="tree-browser css-truncate" cellpadding="0" cellspacing="0">
+        <thead>
+            
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="message">Updated some libraries</a>
+        
+    </p>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="e6dd3bc6ec33bb939cb74434e35e5ef213c25258" data-copied-hint="copied!" title="Copy SHA"><span class="mini-icon mini-icon-clipboard"></span></span>
+      <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="sha-block">latest commit <span class="sha">e6dd3bc6ec</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://secure.gravatar.com/avatar/1b343c65352b5ca97e77a4441bb423b5?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" />
+        <span class="author-name"><a href="/mackief" data-skip-pjax="true" rel="contributor">mackief</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-01-08T08:55:47-08:00" title="2013-01-08 08:55:47">January 08, 2013</time>
+
+      </div>
+    </div>
+  </div>
+
+        </thead>
+
+        
+
+<tbody class="tree-entries js-deferred-content"
+    data-url="/MoltenMotherBoard/proprietary_vendor_samsung/tree-commits/aosp-ics/msm7x27-common/proprietary/lib">
+
+    <tr>
+      <td></td>
+      <td><a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics/msm7x27-common/proprietary" class="js-slide-to" rel="nofollow">..</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-directory"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics/msm7x27-common/proprietary/lib/egl" class="js-directory-link js-slide-to css-truncate-target" id="d8b4a34ea04e204fb1a7af75fb6f44c1-a7381f019f1b630e72b10c01748226f52762ca75" title="egl">egl</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-directory"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/tree/aosp-ics/msm7x27-common/proprietary/lib/hw" class="js-directory-link js-slide-to css-truncate-target" id="65c2a3d77127c15d068dec7e00e50649-bcdcfbff5854adbabaf3aa4636beb9aeaa5f7414" title="hw">hw</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libC2D2.so" class="js-directory-link js-slide-to css-truncate-target" id="ab3994e7390cc881ff479effd2f32f70-8320f7e9eb279f6046e44f1ad352f5c891ec7d0e" title="libC2D2.so">libC2D2.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAacDec.so" class="js-directory-link js-slide-to css-truncate-target" id="b97d80c6ecad836b144f116074dd5299-249e6188f7ac67bb55bb437f04fe273d61539a5a" title="libOmxAacDec.so">libOmxAacDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAacEnc.so" class="js-directory-link js-slide-to css-truncate-target" id="0d0adfa8814597106d6c0f434682fc4d-0f08b646e38f387b8b8c7088ed0fa53636b2431e" title="libOmxAacEnc.so">libOmxAacEnc.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAdpcmDec.so" class="js-directory-link js-slide-to css-truncate-target" id="24031aae9e11bd83e214ccb07e2fe9fa-fac9f7f0d88cac718ccaccfa8ee6ce3657c1df57" title="libOmxAdpcmDec.so">libOmxAdpcmDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAmrDec.so" class="js-directory-link js-slide-to css-truncate-target" id="af0a6d2a55e555e1d728156bf1170cfd-e5d850f6ff54793f0a86ba5d9b879d7ff4e4e674" title="libOmxAmrDec.so">libOmxAmrDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAmrEnc.so" class="js-directory-link js-slide-to css-truncate-target" id="0cf6010eaff031416a6748e11b035d30-a9f5c2c22548c1a07b4b6ae62bbba32344fbc1d3" title="libOmxAmrEnc.so">libOmxAmrEnc.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAmrRtpDec.so" class="js-directory-link js-slide-to css-truncate-target" id="5632e51e31c14d1528c73594965f82fa-84bf13907107bad396fac5b87279efb1b4cf4d90" title="libOmxAmrRtpDec.so">libOmxAmrRtpDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxAmrwbDec.so" class="js-directory-link js-slide-to css-truncate-target" id="a95b74110327c7d3272741cd81e0b508-cb608c7f08aba1b53c08f78462b0769e89285b5d" title="libOmxAmrwbDec.so">libOmxAmrwbDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxEvrcDec.so" class="js-directory-link js-slide-to css-truncate-target" id="a630adf399d0e1cd135a09d82244ea84-3277d06f816d4ce321cd8b8024c965b5210218fe" title="libOmxEvrcDec.so">libOmxEvrcDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxEvrcEnc.so" class="js-directory-link js-slide-to css-truncate-target" id="5fbb315db6543e2c21c2b7c64373345f-450200826f980d19dd7e7a5c9e159404d386c490" title="libOmxEvrcEnc.so">libOmxEvrcEnc.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxEvrcHwDec.so" class="js-directory-link js-slide-to css-truncate-target" id="680a6bb49c9e19d3320a328f9ea8bc8a-f3ee2b30ebae573fafcd1b10e902b4de7fb543b5" title="libOmxEvrcHwDec.so">libOmxEvrcHwDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxH264Dec.so" class="js-directory-link js-slide-to css-truncate-target" id="39ca684867dcef24418b5e9bb6882d75-cd4d94878daa65b2c8f33c26c5733176de085ea7" title="libOmxH264Dec.so">libOmxH264Dec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxMp3Dec.so" class="js-directory-link js-slide-to css-truncate-target" id="2be8375529295cbf6c7694095d9c1cf5-d895b559e3a0e5a9d9d43ba1c010d6ea8c4172c4" title="libOmxMp3Dec.so">libOmxMp3Dec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxMpeg4Dec.so" class="js-directory-link js-slide-to css-truncate-target" id="a5f2129bb82c15bcdd2c94ab52200782-352428d8f8271e7ac399dbcd049326323be9f5f1" title="libOmxMpeg4Dec.so">libOmxMpeg4Dec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxOn2Dec.so" class="js-directory-link js-slide-to css-truncate-target" id="8401f7e8d7b0008d33b2388a0f307545-8aac4ef5084e81112af7ade525396a0568e651cb" title="libOmxOn2Dec.so">libOmxOn2Dec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxQcelp13Enc.so" class="js-directory-link js-slide-to css-truncate-target" id="e9e54a8105c809e5b1f36ca4617c9598-79402f9c39422e018f2b62ff5e3fab5ee967a509" title="libOmxQcelp13Enc.so">libOmxQcelp13Enc.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxQcelpDec.so" class="js-directory-link js-slide-to css-truncate-target" id="9d465c0f95fb9ea186cf57c92d37bb93-140d90c0d5217ae2aec6fba444966baa9656981d" title="libOmxQcelpDec.so">libOmxQcelpDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxQcelpHwDec.so" class="js-directory-link js-slide-to css-truncate-target" id="a8f195ff06dac017bef4959c510a2591-cacb1aa6f3837fa8b2ded3a5aae5c870ecc90672" title="libOmxQcelpHwDec.so">libOmxQcelpHwDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxVidEnc.so" class="js-directory-link js-slide-to css-truncate-target" id="590023e7e279c40efaa5ab7c4117eda8-60ae8bae94270c6d4c0ca152c2037e30a7c4b814" title="libOmxVidEnc.so">libOmxVidEnc.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxWmaDec.so" class="js-directory-link js-slide-to css-truncate-target" id="99c0aa5dcf90f9c949e709778302bdb0-16e544ee179b8e7b0e88d622c236830c5847f3ce" title="libOmxWmaDec.so">libOmxWmaDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOmxWmvDec.so" class="js-directory-link js-slide-to css-truncate-target" id="bc5345bc6bab9201674c9f28a6ff414c-2a9fce6d47eb4f6add1a53bb636baccd3a7f4053" title="libOmxWmvDec.so">libOmxWmvDec.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libOpenVG.so" class="js-directory-link js-slide-to css-truncate-target" id="96b465f82f6aedf3e3551e7a0b78d8a6-403779fffcd541ef882b8af98e1ef7c2bd428605" title="libOpenVG.so">libOpenVG.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/liba2dp.so" class="js-directory-link js-slide-to css-truncate-target" id="088bd1b8b254d70cacbbfc892e646691-357df34da27d0e08df6e59314972a299fad1074d" title="liba2dp.so">liba2dp.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libarccamera.so" class="js-directory-link js-slide-to css-truncate-target" id="2c208f6c23f802cd83c3fdf61d858702-59eb4fedf5143b225589a86e7b8fae256f2bbc0b" title="libarccamera.so">libarccamera.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-01-08T08:55:47-08:00" title="2013-01-08 08:55:47">January 08, 2013</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="message">Updated some libraries</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libaudioeq.so" class="js-directory-link js-slide-to css-truncate-target" id="e4120f3a5363f73514e143b1d8626444-a37a461246b19b6b7e98e273fcfdf7a2df5d1554" title="libaudioeq.so">libaudioeq.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libdiag.so" class="js-directory-link js-slide-to css-truncate-target" id="f30257610aa766a5157486149643e03c-cb601ec7b1418b99126c2feb2dd6a77d8c046400" title="libdiag.so">libdiag.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libgsl.so" class="js-directory-link js-slide-to css-truncate-target" id="3954051c67f78db8a432cd0b519484eb-b25825244069652709024fe2808d008ca6f70e02" title="libgsl.so">libgsl.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libmm-adspsvc.so" class="js-directory-link js-slide-to css-truncate-target" id="c363dc63b68e44ea82c0a3c48e7a0f80-1fb48eee1eee1fefa775618ef08050dedb60dacc" title="libmm-adspsvc.so">libmm-adspsvc.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-01-08T08:55:47-08:00" title="2013-01-08 08:55:47">January 08, 2013</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="message">Updated some libraries</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libmmipl.so" class="js-directory-link js-slide-to css-truncate-target" id="00333f8d21076291d340df41de1af9ad-eeaed91915232dbfcd3d83baaa0f374bea0a8f77" title="libmmipl.so">libmmipl.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-01-08T08:55:47-08:00" title="2013-01-08 08:55:47">January 08, 2013</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="message">Updated some libraries</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libmmjpeg.so" class="js-directory-link js-slide-to css-truncate-target" id="f449a99315683d2d2bfa5235a508ef78-58545b9d87264eb8f9f9d4958316c7b64abcd961" title="libmmjpeg.so">libmmjpeg.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-01-08T08:55:47-08:00" title="2013-01-08 08:55:47">January 08, 2013</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="message">Updated some libraries</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libmmosal.so" class="js-directory-link js-slide-to css-truncate-target" id="539dcfce51ee358252b4dd0433ec5119-42c324218f9cd14611e427821c4647c872afa71b" title="libmmosal.so">libmmosal.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libmmparser.so" class="js-directory-link js-slide-to css-truncate-target" id="45284df1ba0de5ae245897d0bcab0c07-03ac87a5a4be2167830607c1e3daeebe5d3105d6" title="libmmparser.so">libmmparser.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libmmparser_divxdrmlib.so" class="js-directory-link js-slide-to css-truncate-target" id="778e29f606643564abcd615aaddc1997-19af552d0590f50e03e60215b0bdadd15e8d8c35" title="libmmparser_divxdrmlib.so">libmmparser_divxdrmlib.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_aacdec_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="7094793f3a99f9dcfa8a872893f9a7db-bf1a87aa92c94e32e4a313565065500fa9ecc59b" title="libomx_aacdec_sharedlibrary.so">libomx_aacdec_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_amrdec_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="a238d375f53edfd4f62b745aaafc6062-cb8ee301e572bd2c1c800d73a23058148d38405c" title="libomx_amrdec_sharedlibrary.so">libomx_amrdec_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_amrenc_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="8e7fa35700c681172cf7d93b11e0f0bc-346586173d2d84b9d8a5a3d9d217dcf9bf99645a" title="libomx_amrenc_sharedlibrary.so">libomx_amrenc_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_avcdec_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="001ca04edd0745386d16ee02e3f8d5cc-2b9b6a17ec7755e961c2de696d49c27a804e04eb" title="libomx_avcdec_sharedlibrary.so">libomx_avcdec_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_m4vdec_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="d5e0773cd2205617be1f8abfd57fd448-5e500f0ea263029e1cc1250938072f231536632c" title="libomx_m4vdec_sharedlibrary.so">libomx_m4vdec_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_mp3dec_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="d3272e54952ea035debedbf31e0c0e00-54ef25eca006ba20b63a438c95c78d4a275913c4" title="libomx_mp3dec_sharedlibrary.so">libomx_mp3dec_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libomx_sharedlibrary.so" class="js-directory-link js-slide-to css-truncate-target" id="a10d60aeeb74d75212151aa05dc1bc1f-3a2a8f597e7543ab21b8672bff812fa1abe29a8d" title="libomx_sharedlibrary.so">libomx_sharedlibrary.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libqcomm_omx.so" class="js-directory-link js-slide-to css-truncate-target" id="d803b4f3f5381a7e3197eb3556bc03ad-b4acb5d85c9623845848dd9ee4bbf6be67778a4b" title="libqcomm_omx.so">libqcomm_omx.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libs3cjpeg.so" class="js-directory-link js-slide-to css-truncate-target" id="6f40bd0b02f46f0b4603e2aa40d62516-3f4d70f9c450da30d57154d25e7498d25cf63be5" title="libs3cjpeg.so">libs3cjpeg.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-01-08T08:55:47-08:00" title="2013-01-08 08:55:47">January 08, 2013</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e6dd3bc6ec33bb939cb74434e35e5ef213c25258" class="message">Updated some libraries</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libsc-a2xx.so" class="js-directory-link js-slide-to css-truncate-target" id="5525d6838dcafaed5fe4ca66246e2334-9509360167e1c36df7815cdb6c445151e17b56cd" title="libsc-a2xx.so">libsc-a2xx.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libsec-ril.so" class="js-directory-link js-slide-to css-truncate-target" id="9fcf4b3f4454f59be0a30761e007cde3-8841b638c8dd603143f3acf4fe002ba095bf07ad" title="libsec-ril.so">libsec-ril.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/MoltenMotherBoard/proprietary_vendor_samsung/blob/aosp-ics/msm7x27-common/proprietary/lib/libsecril-client.so" class="js-directory-link js-slide-to css-truncate-target" id="6ce90a683ed46bac2e27e6fc6d7f9c0c-afa8841aa79b7007a6a83ab11b8c5848cdaf0ac3" title="libsecril-client.so">libsecril-client.so</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-20T04:59:49-08:00" title="2012-12-20 04:59:49">December 20, 2012</time></td>
+
+      <td class="message">
+          <a href="/MoltenMotherBoard/proprietary_vendor_samsung/commit/e77941085bcc9b19266fe0faf2da5aec359a8510" class="message">Fixed bootloop</a>
+          [<a href="/mackief" rel="author">mackief</a>]
+
+      </td>
+    </tr>
+</tbody>
+
+      </table>
+      </div>
+
+        
+    </div>
+  </div>
+  <br style="clear:both;">
+
+
+<br style="clear:both;">
+
+<div id="js-frame-loading-template" class="frame frame-loading large-loading-area" style="display:none;">
+  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1360648847" height="64" width="64">
+</div>
+
+
+  </div>
+
+        </div>
+      </div>
+      <div class="context-overlay"></div>
+    </div>
+
+      <div id="footer-push"></div><!-- hack for sticky footer -->
+    </div><!-- end of wrapper - hack for sticky footer -->
+
+      <!-- footer -->
+      <div id="footer">
+  <div class="container clearfix">
+
+      <dl class="footer_nav">
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/about">About us</a></dd>
+        <dd><a href="https://github.com/blog">Blog</a></dd>
+        <dd><a href="https://github.com/contact">Contact &amp; support</a></dd>
+        <dd><a href="http://enterprise.github.com/">GitHub Enterprise</a></dd>
+        <dd><a href="http://status.github.com/">Site status</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Applications</dt>
+        <dd><a href="http://mac.github.com/">GitHub for Mac</a></dd>
+        <dd><a href="http://windows.github.com/">GitHub for Windows</a></dd>
+        <dd><a href="http://eclipse.github.com/">GitHub for Eclipse</a></dd>
+        <dd><a href="http://mobile.github.com/">GitHub mobile apps</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Services</dt>
+        <dd><a href="http://get.gaug.es/">Gauges: Web analytics</a></dd>
+        <dd><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></dd>
+        <dd><a href="https://gist.github.com">Gist: Code snippets</a></dd>
+        <dd><a href="http://jobs.github.com/">Job board</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Documentation</dt>
+        <dd><a href="http://help.github.com/">GitHub Help</a></dd>
+        <dd><a href="http://developer.github.com/">Developer API</a></dd>
+        <dd><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></dd>
+        <dd><a href="http://pages.github.com/">GitHub Pages</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>More</dt>
+        <dd><a href="http://training.github.com/">Training</a></dd>
+        <dd><a href="https://github.com/edu">Students &amp; teachers</a></dd>
+        <dd><a href="http://shop.github.com">The Shop</a></dd>
+        <dd><a href="/plans">Plans &amp; pricing</a></dd>
+        <dd><a href="http://octodex.github.com/">The Octodex</a></dd>
+      </dl>
+
+      <hr class="footer-divider">
+
+
+    <p class="right">&copy; 2013 <span title="0.09027s from fe4.rs.github.com">GitHub</span>, Inc. All rights reserved.</p>
+    <a class="left" href="https://github.com/">
+      <span class="mega-icon mega-icon-invertocat"></span>
+    </a>
+    <ul id="legal">
+        <li><a href="https://github.com/site/terms">Terms of Service</a></li>
+        <li><a href="https://github.com/site/privacy">Privacy</a></li>
+        <li><a href="https://github.com/security">Security</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+
+</div><!-- /.#footer -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/MoltenMotherBoard/proprietary_vendor_samsung/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-icon mega-icon-normalscreen"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="mini-icon mini-icon-brightness"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
+    </div>
+
+    
+    
+    <span id='server_response_time' data-time='0.09063' data-host='fe4'></span>
+    
+  </body>
+</html>
+

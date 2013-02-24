@@ -1,0 +1,14 @@
+These files are not specific of Galaxy Gio.
+They're from other devices and they're confirmed to work on CM10.1 for Gio.
+They're:
+
+- For video
+libOmxVidEnc.so 
+From: galaxy5 (Galaxy Europa)
+
+- For RIL
+qmuxd
+libdiag.so
+libsecril-client.so
+libsec-ril.so
+From: Beni (Galaxy Fit)
