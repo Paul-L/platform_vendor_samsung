@@ -59,14 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so
 
-## libprc
-PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27-common/proprietary/lib/librpc.so:system/lib/librpc.so
-
-## light.msm7x27.so
-PRODUCT_COPY_FILES += \
-    vendor/samsung/msm7x27-common/proprietary/lib/hw/lights.msm7x27.so:system/lib/hw/lights.msm7x27.so
-
 ## Ramdisk kernel modules
 ## Note: we don't need to propagate the rfs modules for all targets
 PRODUCT_COPY_FILES += \
@@ -81,6 +73,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/others/lib/libdiag.so:system/lib/libdiag.so \
     vendor/samsung/others/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/others/lib/libsec-ril.so:system/lib/libsec-ril.so
+
+# Temporary fixes
+# Will fix in sources later
+## libprc
+PRODUCT_COPY_FILES += \
+    vendor/samsung/others/lib/librpc.so:system/lib/librpc.so
+## light.msm7x27.so
+PRODUCT_COPY_FILES += \
+    vendor/samsung/others/lib/hw/lights.msm7x27.so:system/lib/hw/lights.msm7x27.so
+## GPS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/others/lib/hw/gps.msm7x27.so:system/lib/hw/gps.msm7x27.so \
+    vendor/samsung/others/bin/gpsd:system/bin/gpsd 
 
 # Including QCOM stuff
 $(call inherit-product, vendor/samsung/qcom/qcom-vendor.mk)
