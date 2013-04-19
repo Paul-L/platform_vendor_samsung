@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+## For libcamera prebuilt
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm7x27-common/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/samsung/msm7x27-common/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
+
 ## Atheros WiFi - board data calibration
 PRODUCT_COPY_FILES += \
     vendor/samsung/cooper/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin \
