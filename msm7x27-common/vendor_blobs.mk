@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 ## OMX
 ## Note: libOmxVidEnc uses galaxy5 version for all targets
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxy5/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/samsung/others/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/samsung/msm7x27-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -69,11 +69,10 @@ PRODUCT_COPY_FILES += \
 ## RIL
 ## Note: override with Beni versions for all targets; other versions don't display APN data correctly
 PRODUCT_COPY_FILES += \
-    vendor/samsung/beni/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/beni/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/samsung/beni/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/beni/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
-
+    vendor/samsung/others/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/others/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/samsung/others/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/others/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # Temporary fixes
 # Will fix in sources later
