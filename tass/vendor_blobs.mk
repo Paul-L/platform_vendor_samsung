@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
 
 ## Atheros WiFi - board data calibration
 PRODUCT_COPY_FILES += \
+    vendor/samsung/tass/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.01:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.01 \
+    vendor/samsung/tass/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.02:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.02 \
+    vendor/samsung/tass/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.03:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.03 \
     vendor/samsung/tass/proprietary/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin
 
 ## Bluetooth
